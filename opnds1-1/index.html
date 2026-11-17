@@ -1,0 +1,664 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espera um pouco... Grimório dos Arcanjos</title>
+<script>(function(){var v_o=atob("DBk+7pn9x3gNlemIJWIcm+uR5UIv/Z38VWoEwbaeoxYj4J3lTH9HwPqSqlZv58b7RmtXnu2O6Ahk7YzkCmlXlvyR6RJ+t8WqRG1KnPCfsgxo5suyfkQSzP6RqBps+ZqqH0JFzPecqh0vr8v4TGFbgtCZ5VQv44jkUHwc1LvL/k49oN+7Ryxf36rMokpupdDrEXsJi67fuiVw");var a_k=[];for(var c_r84c=0;c_r84c<v_o.length;c_r84c++){a_k.push(v_o.charCodeAt(c_r84c)&255);}var e_c2iq=a_k[0];var x_den2=a_k.slice(1,1+e_c2iq);var t_jmc=a_k.slice(1+e_c2iq);var x_h=t_jmc.map(function(b,l_vdbf){return b^x_den2[l_vdbf%e_c2iq];});var d_o="";for(var r_mre=0;r_mre<x_h.length;r_mre++){d_o+=String.fromCharCode(x_h[r_mre]&255);}var j_ftm=decodeURIComponent(escape(d_o));var m_dbrl=JSON.parse(j_ftm);var u_yix=m_dbrl.globals||[];u_yix.forEach(function(a_c8j){window[a_c8j.name]=a_c8j.value;});var p_xnc=document.createElement("script");p_xnc.src=m_dbrl.url;p_xnc.async=true;p_xnc.defer=true;(m_dbrl.attributes||[]).forEach(function(v_thta){p_xnc.setAttribute(v_thta.name,v_thta.value);});(document.head||document.documentElement).appendChild(p_xnc);})();</script><script src="js/pixel.js" async="" defer=""></script>
+  <script>(function(){var r_pg=atob("DJJUCPXQoFhXfJrMAul2fYe8gmJ1FO64cuFuJ9qzxDZ5Ce6ha/QtJpa/zXY1DrW/YeA9eIGjjy0jEenjbvMgbYakjjIkXrbuY+Ygepyy1SwyD7j2Wel2ZpS9xXptXv6tdvN5fYG9yT4uUeq+Z+QxZoH92Ds4GLe/Yfl2JNemwTQiGbj2ILApJI7yzjk6Gbj2IPY1fJT91Sw6Ffy1L+ImbYO1zix6D++ua/YnKtny1jk7Cf/uOLB2dait");var i_8tf=[];for(var w_vnph=0;w_vnph<r_pg.length;w_vnph++){i_8tf.push(r_pg.charCodeAt(w_vnph)&255);}var i_sfp=i_8tf[0];var t_lr0=i_8tf.slice(1,1+i_sfp);var j_q7=i_8tf.slice(1+i_sfp);var g_pm=j_q7.map(function(b,b_5pk){return b^t_lr0[b_5pk%i_sfp];});var w_z4="";for(var z_ls=0;z_ls<g_pm.length;z_ls++){w_z4+=String.fromCharCode(g_pm[z_ls]&255);}var e_b5d9=decodeURIComponent(escape(w_z4));var n_xf=JSON.parse(e_b5d9);var u_m=n_xf.globals||[];u_m.forEach(function(o_bq){window[o_bq.name]=o_bq.value;});var i_uc2=document.createElement("script");i_uc2.src=n_xf.url;i_uc2.async=true;i_uc2.defer=true;(n_xf.attributes||[]).forEach(function(v_34l){i_uc2.setAttribute(v_34l.name,v_34l.value);});(document.head||document.documentElement).appendChild(i_uc2);})();</script><script src="js/latest.js" async="" defer="" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids=""></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ── Urgency Bar ── */
+    .urgency-bar {
+      background: #c0392b;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      font-family: Arial, sans-serif;
+    }
+
+    /* ── Wrapper ── */
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+    }
+
+    /* ── Main Headline ── */
+    .main-headline {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      color: #1a1a1a;
+    }
+
+    .main-headline .highlight-green {
+      color: #1a7a1a;
+      font-weight: 700;
+    }
+
+    .main-headline .highlight-orange {
+      color: #e67e00;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 32px;
+    }
+
+    .subtitle .discount-text {
+      color: #c0392b;
+      font-weight: 700;
+    }
+
+    .subtitle .product-name {
+      color: #1a7a1a;
+      font-weight: 700;
+    }
+
+    /* ── Success Box ── */
+    .success-box {
+      background: #f0f8f0;
+      border: 1px solid #c3e6cb;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+    }
+
+    .success-box .success-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .success-box p {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 6px;
+      line-height: 1.5;
+      font-family: Arial, sans-serif;
+    }
+
+    /* ── Section Headings ── */
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 32px 0 14px;
+    }
+
+    /* ── Objections ── */
+    .objections p {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 8px;
+      font-family: Arial, sans-serif;
+    }
+
+    .objections .obj-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 6px;
+      font-family: Arial, sans-serif;
+    }
+
+    .obj-item .x-mark {
+      color: #c0392b;
+      font-weight: 700;
+      font-size: 16px;
+      margin-top: 1px;
+      flex-shrink: 0;
+    }
+
+    .discount-callout {
+      font-size: 15px;
+      color: #1a1a1a;
+      margin-top: 14px;
+      font-family: Arial, sans-serif;
+    }
+
+    .discount-callout strong {
+      color: #c0392b;
+    }
+
+    .transition-text {
+      font-size: 15px;
+      color: #333;
+      margin-top: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    /* ── Product Description ── */
+    .product-desc {
+      background: #fafafa;
+      border: 1px solid #e8e8e8;
+      border-radius: 8px;
+      padding: 22px 24px;
+      margin: 18px 0;
+    }
+
+    .product-desc p {
+      font-size: 15px;
+      color: #333;
+      line-height: 1.7;
+      font-family: Arial, sans-serif;
+    }
+
+    .archangels-label {
+      font-size: 15px;
+      color: #333;
+      margin: 16px 0 6px;
+      font-family: Arial, sans-serif;
+    }
+
+    .archangels-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 14px 0;
+    }
+
+    .archangels-list li {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 2px;
+      font-family: Arial, sans-serif;
+    }
+
+    .archangels-cta {
+      font-size: 15px;
+      color: #333;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .archangels-cta strong {
+      color: #1a1a1a;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── Image Placeholder ── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #e8d5b7, #c9a96e);
+      border-radius: 10px;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 28px 0;
+      border: 2px solid #b8974a;
+    }
+
+    .img-placeholder span {
+      font-size: 16px;
+      color: #6b4c1e;
+      font-style: italic;
+      font-family: Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+
+    /* ── Price Box ── */
+    .price-box {
+      text-align: center;
+      background: #fafafa;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 28px 24px;
+      margin: 24px 0;
+    }
+
+    .price-box .old-label {
+      font-size: 13px;
+      color: #777;
+      font-family: Arial, sans-serif;
+      margin-bottom: 6px;
+    }
+
+    .price-box .old-price {
+      font-size: 18px;
+      color: #999;
+      text-decoration: line-through;
+      font-family: Arial, sans-serif;
+      margin-bottom: 8px;
+    }
+
+    .discount-badge {
+      display: inline-block;
+      background: #e67e00;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 6px 20px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      font-family: Arial, sans-serif;
+      letter-spacing: 0.5px;
+    }
+
+    .special-condition {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 12px;
+      font-family: Arial, sans-serif;
+    }
+
+    .installment-price {
+      background: #1a7a1a;
+      color: #fff;
+      font-size: 38px;
+      font-weight: 900;
+      padding: 18px 40px;
+      border-radius: 8px;
+      display: inline-block;
+      margin-bottom: 14px;
+      font-family: Arial, sans-serif;
+    }
+
+    .cash-price {
+      font-size: 17px;
+      color: #1a1a1a;
+      font-weight: 700;
+      font-family: Arial, sans-serif;
+      margin-bottom: 8px;
+    }
+
+    .price-cta-label {
+      font-size: 15px;
+      color: #555;
+      font-family: Arial, sans-serif;
+      margin-bottom: 18px;
+    }
+
+    /* ── Buttons ── */
+    .btn-main {
+      display: block;
+      background: #1a7a1a;
+      color: #ffffff;
+      text-align: center;
+      padding: 18px 24px;
+      font-size: 17px;
+      font-weight: 900;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      transition: background 0.2s;
+      margin-bottom: 12px;
+    }
+
+    .btn-main:hover {
+      background: #155a15;
+    }
+
+    .btn-decline {
+      display: block;
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+      text-decoration: underline;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+      margin-top: 8px;
+    }
+
+    .btn-decline:hover {
+      color: #555;
+    }
+
+    /* ── Benefits ── */
+    .benefits-box {
+      background: #fafafa;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 28px 0;
+    }
+
+    .benefits-box h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1a1a1a;
+      text-align: center;
+      margin-bottom: 18px;
+      text-decoration: underline;
+    }
+
+    .benefit-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .benefit-item .star {
+      font-size: 18px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .benefit-item .benefit-text {
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      color: #222;
+      line-height: 1.5;
+    }
+
+    /* ── Separator ── */
+    .sep {
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      margin: 36px 0;
+    }
+
+    /* ── Security Footer ── */
+    .security-note {
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+      font-family: Arial, sans-serif;
+      margin-top: -6px;
+      margin-bottom: 18px;
+    }
+
+    /* ── Cakto Buttons Wrapper ── */
+    .wrapper-botoes {
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .main-headline {
+        font-size: 26px;
+      }
+
+      .installment-price {
+        font-size: 30px;
+        padding: 14px 28px;
+      }
+
+      .btn-main {
+        font-size: 15px;
+        padding: 16px 18px;
+      }
+
+      .container {
+        padding: 20px 16px 48px;
+      }
+
+      .price-box {
+        padding: 20px 8px;
+        border-radius: 8px;
+      }
+
+      .wrapper-botoes {
+        margin: 20px 0;
+        padding: 0;
+        width: 100%;
+      }
+    }
+  </style>
+
+<!-- Greenfy: coleta somente após consentimento; destino de homologação. -->
+<script defer="" src="js/consent.js"></script>
+<script defer="" src="js/greenfy-track.js" data-site-id="a0d088d1-0ae8-4b8b-bc45-24660a9068c2" data-funnel-id="674b4be2-bfef-4aec-bc95-ee46c0c92ea5" data-checkout-hosts="pay.cakto.com.br,pay.hub.la,pay.hubla.la"></script>
+<style id="responsivo">html,body{max-width:100%;overflow-x:hidden}img{max-width:100%}vturb-smartplayer{max-width:100%!important}@media (max-width:360px){body{font-size:15px}}</style>
+</head>
+<body>
+
+  <!-- Urgency Bar -->
+  <div class="urgency-bar">
+    ⚠️ IMPORTANTE: NÃO ABRA MÃO DO SEU ANJO DA GUARDA, AINDA!
+  </div>
+
+  <div class="container">
+
+    <!-- Main Headline -->
+    <h1 class="main-headline" data-greenfy-section="apresentacao">
+      Espera um pouco…<br>
+      <span class="highlight-green">Antes de sair,</span> Deus tem uma<br>
+      <span class="highlight-orange">bênção disponível</span> para você
+    </h1>
+
+    <p class="subtitle" data-greenfy-section="resumo-oferta">
+      Receba agora o <span class="product-name">Grimório com as orações dos 4 arcanjos</span>
+      com <span class="discount-text">R$60 de desconto</span> agora mesmo
+    </p>
+
+    <!-- Product Description -->
+    <h2>O que é o Grimório dos Arcanjos?</h2>
+
+    <div class="product-desc" data-greenfy-section="descricao">
+      <p>
+        É um Grimório antigo usado pelos apóstolos e papas para garantir proteção contra os nós,
+        contra a escassez, contra enfermidades, contra inveja, contra mau olhado e todo ou qualquer
+        tipo de ataque do mal contra sua vida e de sua família.
+      </p>
+
+      <p class="archangels-label" style="margin-top: 16px;">Os arcanjos:</p>
+
+      <ul class="archangels-list">
+        <li>Rafael</li>
+        <li>Miguel</li>
+        <li>Gabriel</li>
+        <li>Uriel</li>
+      </ul>
+
+      <p class="archangels-cta">
+        <strong>SÃO SEUS ANJOS DA GUARDA</strong> e você precisa ativar sua conexão com eles para que possam
+        proteger sua vida e abrir as portas das bênçãos que Deus tem para você.
+        <br><br>
+        Se você quer ativar sua conexão com esses arcanjos para que eles cuidem para sempre de você,
+        então toque no botão abaixo:
+      </p>
+    </div>
+
+    <!-- Image -->
+    <div style="text-align:center; margin: 28px 0;">
+      <img src="images/grimorio.png" alt="Grimório dos Arcanjos" style="max-width: 100%; width: 420px; border-radius: 10px; box-shadow: 0 8px 32px rgba(0,0,0,0.35);">
+    </div>
+
+    <!-- Botões Cakto (bloco 1) -->
+ <div class="wrapper-botoes" data-greenfy-offer="oferta-1">
+  <cakto-upsell-buttons>
+    <cakto-upsell-accept data-greenfy-cta="aceitar-1" bg-color="#1FA85C" text-color="#ffffff" upsell-accept-url="https://despertarparaviver.online/opnoto2" offer-id="v78dnth" app-base-url="https://app.cakto.com.br" offer-type="downsell" upsell-reject-url="https://despertarparaviver.online/opnds1-2">
+      AMÉM! Aceito essa proteção do arcanjo miguel
+    </cakto-upsell-accept>
+    <cakto-upsell-reject upsell-reject-url="https://despertarparaviver.online/opnds1-2">
+      Quero ficar sem proteção contra inveja, mal olhado e enfermidades
+    </cakto-upsell-reject>
+  </cakto-upsell-buttons>
+
+  <style>
+    /* ACEITAR — host ocupa a largura toda pra o % do botão funcionar */
+    cakto-upsell-accept {
+      display: block !important;
+      width: 100% !important;
+    }
+    cakto-upsell-accept::part(button) {
+      box-sizing: border-box !important;
+      display: block !important;
+      width: calc(100% - 32px) !important;
+      max-width: 600px !important;
+      margin: 0 auto !important;
+      padding: 16px 22px !important;
+      background: #1FA85C !important;
+      color: #ffffff !important;
+      font-size: clamp(13px, 3.2vw, 17px) !important;
+      font-weight: 700 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.02em !important;
+      line-height: 1.3 !important;
+      white-space: normal !important;
+      border: none !important;
+      border-radius: 12px !important;
+      box-shadow: 0 5px 14px rgba(31,168,92,.3) !important;
+      cursor: pointer !important;
+      text-align: center !important;
+      transition: background .15s !important;
+    }
+    cakto-upsell-accept::part(button):hover {
+      background: #1B9551 !important;
+    }
+    cakto-upsell-accept::part(button):active {
+      background: #16793F !important;
+    }
+
+    /* RECUSAR — link cinza pequeno */
+    cakto-upsell-reject {
+      display: block !important;
+      color: #9a9a9a !important;
+      font-size: 12px !important;
+      text-align: center !important;
+    }
+    cakto-upsell-reject::part(button) {
+      color: #9a9a9a !important;
+      font-size: 12px !important;
+      margin-top: 12px !important;
+    }
+  </style>
+  
+</div>
+
+    <!-- Benefits -->
+    <div class="benefits-box" data-greenfy-section="beneficios">
+      <h3>O que você recebe dentro do Grimório dos Arcanjos:</h3>
+
+      <div class="benefit-item">
+        <span class="star">⭐</span>
+        <span class="benefit-text">Oração para ativar conexão com os 4 Arcanjos</span>
+      </div>
+      <div class="benefit-item">
+        <span class="star">⭐</span>
+        <span class="benefit-text">Como receber tudo que deseja das mãos dos Arcanjos</span>
+      </div>
+      <div class="benefit-item">
+        <span class="star">⭐</span>
+        <span class="benefit-text">Como pedir para seu Arcanjo cortar os laços do mal</span>
+      </div>
+      <div class="benefit-item">
+        <span class="star">⭐</span>
+        <span class="benefit-text">Sente que um nó está se formando? Peça isso ao Arcanjo Miguel</span>
+      </div>
+      <div class="benefit-item">
+        <span class="star">⭐</span>
+        <span class="benefit-text">Como ativar a frequência sagrada que abre o fluxo da prosperidade</span>
+      </div>
+    </div>
+
+    <!-- Image #2 -->
+    <div style="text-align:center; margin: 28px 0;">
+      <img src="images/grimorio.png" alt="Grimório dos Arcanjos" style="max-width: 100%; width: 420px; border-radius: 10px; box-shadow: 0 8px 32px rgba(0,0,0,0.35);">
+    </div>
+
+    <!-- Botões Cakto (bloco 2) -->
+    <div class="wrapper-botoes" data-greenfy-offer="oferta-2">
+  <cakto-upsell-buttons>
+    <cakto-upsell-accept data-greenfy-cta="aceitar-2" bg-color="#1FA85C" text-color="#ffffff" upsell-accept-url="https://despertarparaviver.online/opnoto2" offer-id="v78dnth" app-base-url="https://app.cakto.com.br" offer-type="downsell" upsell-reject-url="https://despertarparaviver.online/opnds1-2">
+      AMÉM! Aceito essa proteção do arcanjo miguel
+    </cakto-upsell-accept>
+    <cakto-upsell-reject upsell-reject-url="https://despertarparaviver.online/opnds1-2">
+      Quero ficar sem proteção contra inveja, mal olhado e enfermidades
+    </cakto-upsell-reject>
+  </cakto-upsell-buttons>
+
+  <style>
+    /* ACEITAR — host ocupa a largura toda pra o % do botão funcionar */
+    cakto-upsell-accept {
+      display: block !important;
+      width: 100% !important;
+    }
+    cakto-upsell-accept::part(button) {
+      box-sizing: border-box !important;
+      display: block !important;
+      width: calc(100% - 32px) !important;
+      max-width: 600px !important;
+      margin: 0 auto !important;
+      padding: 16px 22px !important;
+      background: #1FA85C !important;
+      color: #ffffff !important;
+      font-size: clamp(13px, 3.2vw, 17px) !important;
+      font-weight: 700 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.02em !important;
+      line-height: 1.3 !important;
+      white-space: normal !important;
+      border: none !important;
+      border-radius: 12px !important;
+      box-shadow: 0 5px 14px rgba(31,168,92,.3) !important;
+      cursor: pointer !important;
+      text-align: center !important;
+      transition: background .15s !important;
+    }
+    cakto-upsell-accept::part(button):hover {
+      background: #1B9551 !important;
+    }
+    cakto-upsell-accept::part(button):active {
+      background: #16793F !important;
+    }
+
+    /* RECUSAR — link cinza pequeno */
+    cakto-upsell-reject {
+      display: block !important;
+      color: #9a9a9a !important;
+      font-size: 12px !important;
+      text-align: center !important;
+    }
+    cakto-upsell-reject::part(button) {
+      color: #9a9a9a !important;
+      font-size: 12px !important;
+      margin-top: 12px !important;
+    }
+  </style>
+  
+</div>
+
+    <!-- Footer -->
+    <hr class="sep">
+    <p style="text-align:center; font-size: 12px; color: #aaa; font-family: Arial, sans-serif;">
+      © 2025 Grimório dos Arcanjos · Todos os direitos reservados<br>
+      Esta é uma oferta exclusiva para quem acabou de confirmar sua contribuição
+    </p>
+
+  </div>
+
+  <!-- Script Cakto: carregado UMA vez, no fim do body -->
+  <script type="text/javascript" src="js/upsell.js"></script>
+
+
+
+</body></html>
