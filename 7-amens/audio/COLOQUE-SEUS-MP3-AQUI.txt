@@ -1,0 +1,14 @@
+Coloque os arquivos MP3 nesta pasta com os nomes EXATOS abaixo. Não precisa modificar o HTML.
+
+madrugada-1.mp3
+madrugada-2.mp3
+madrugada-3.mp3
+madrugada-4.mp3
+madrugada-5.mp3
+madrugada-6.mp3
+madrugada-7.mp3
+pai-nosso.mp3
+oracao-especial.mp3
+
+Oração especial: somente áudio autêntico e com autorização de distribuição. Nenhuma voz artificial foi incluída.
+Hospede o site (HTTPS recomendado) com a mesma estrutura de pastas. A reprodução exige que o visitante clique no player.

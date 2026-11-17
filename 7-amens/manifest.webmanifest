@@ -1,0 +1,21 @@
+{
+  "name": "7 Améns da Madrugada — Portal de Oração",
+  "short_name": "7 Améns",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101d34",
+  "theme_color": "#101d34",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

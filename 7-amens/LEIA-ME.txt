@@ -1,0 +1,19 @@
+7 AMÉNS DA MADRUGADA — PORTAL REFORMULADO
+
+Início: index.html. Envie TODOS os arquivos e pastas desta pasta para sua hospedagem mantendo os nomes.
+
+ÁUDIOS: confira a lista em audio/COLOQUE-SEUS-MP3-AQUI.txt. O player aponta diretamente para esses nomes; ao adicionar um MP3 correto, passa a tocar sem alteração de código.
+
+DOCUMENTOS: confira materiais/COLOQUE-SEUS-PDFS-AQUI.txt. As imagens do manuscrito são meramente ilustrativas; o site não declara documentos como históricos sem que sejam fornecidos.
+
+O material do Pai-Nosso escrito está no site e em materiais/pai-nosso.txt. O áudio depende do MP3.
+
+A narração atribuída ao Frei Gilson não está incluída. Use essa atribuição apenas com gravação original e autorização para uso comercial.
+
+Os presentes extras não foram especificados; a página existe para recebê-los posteriormente.
+
+O "aplicativo" é um site instalável (PWA) sob HTTPS, não um aplicativo nativo da App Store/Play Store.
+
+Diário, intenções e progresso ficam armazenados no navegador (sem login e sem sincronização); usar outro aparelho ou limpar os dados não transfere os registros.
+
+Foram preservados os conteúdos originais das sete orações, as reflexões e a configuração do link de ajuda.
